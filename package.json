@@ -1,11 +1,12 @@
 {
-  "name": "aws-ec2-node-demo",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
+  "name": "aws-ec2-node-demo",        #➡️ Project nameUsed by npm to identify your project.
+  "version": "1.0.0",                 #➡️ Project versionHelps with updates and maintenance.
+  "main": "server.js",                #➡️ Entry point of the app Node.js starts execution from server.js.
+  "scripts": {                        # ➡️ Defines commands When you run:npm start ➡️ It runs:node server.js
     "start": "node server.js"
   },
-  "dependencies": {
+  "dependencies": {                    # ➡️ Dependencies needed by the app Express is a web framework used to build APIs and servers.📌 When you ran:npm install
+                                        ➡️ npm downloaded Express automatically.
     "express": "^4.18.2"
   }
 }
